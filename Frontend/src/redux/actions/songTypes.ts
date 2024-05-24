@@ -1,0 +1,24 @@
+export enum SongActionTypes {
+    LOAD_SONGS = 'LOAD_SONGS',
+    LOAD_SONGS_SUCCESS = 'LOAD_SONGS_SUCCESS',
+    LOAD_SONGS_ERROR = 'LOAD_SONGS_ERROR',
+    ADD_SONG = 'ADD_SONG',
+    ADD_SONG_SUCCESS = 'ADD_SONG_SUCCESS',
+    ADD_SONG_ERROR = 'ADD_SONG_ERROR',
+    UPDATE_SONG = 'UPDATE_SONG',
+    UPDATE_SONG_SUCCESS = 'UPDATE_SONG_SUCCESS',
+    UPDATE_SONG_ERROR = 'UPDATE_SONG_ERROR',
+    DELETE_SONG = 'DELETE_SONG',
+    DELETE_SONG_SUCCESS = 'DELETE_SONG_SUCCESS',
+    DELETE_SONG_ERROR = 'DELETE_SONG_ERROR',
+    GET_SONG_BY_ID = 'GET_SONG_BY_ID',
+    GET_SONG_BY_ID_SUCCESS = 'GET_SONG_BY_ID_SUCCESS',
+    GET_SONG_BY_ID_ERROR = 'GET_SONG_BY_ID_ERROR',
+  }
+  export interface Song {
+    id?: string;
+    title: string;
+    artist: string;
+    album: string;
+    genre: string;
+  }

@@ -1,0 +1,8 @@
+//run docker-compose
+docker-compose up -d
+
+//Build app using docker
+docker build -t song-app .       //song-app is your-app-name
+
+//run docker app
+docker run -p 5000:5000 song-app     //song-app is your-app-name

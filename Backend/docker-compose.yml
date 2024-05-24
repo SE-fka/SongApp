@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGODB_URI=mongodb+srv://fikalegesse:PP1qoPD4yfgt43nv@song-db.xygw5b9.mongodb.net/?retryWrites=true&w=majority&appName=song-db
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+
+
+
+  
