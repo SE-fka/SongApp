@@ -1,5 +1,14 @@
 
 
+
+<!--  Live demo -->
+
+Frontend: https://befikadu.netlify.app/
+
+Bacend: https://backend-1-ia3n.onrender.com
+
+
+
 <!-- ABOUT THE PROJECT -->
 
 //Project clone from github repository
@@ -20,11 +29,6 @@ npm start
 
 npm run build
 
-//Live demo
-
-Frontend: https://befikadu.netlify.app/
-
-Bacend: https://backend-1-ia3n.onrender.com
 
 <!-- ABOUT THE BackEND PROJECT -->
 
