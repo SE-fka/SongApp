@@ -16,9 +16,15 @@ npm install
 
 npm start
 
-Build application
+//Build application
 
 npm run build
+
+//Live demo
+
+Frontend: https://befikadu.netlify.app/
+
+Bacend: https://backend-1-ia3n.onrender.com
 
 <!-- ABOUT THE BackEND PROJECT -->
 
