@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "8350fa49-9db0-47a1-ac79-7b6e33bf8812",
+		"name": "SongApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32826653"
+	},
+	"item": [
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/getAllSongs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/getAllSongs",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"getAllSongs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/getSong/6650811d2ffff5cd5ffa9ad8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/getSong/6650811d2ffff5cd5ffa9ad8",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"getSong",
+						"6650811d2ffff5cd5ffa9ad8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/searchSong/dance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/searchSong/dance",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"searchSong",
+						"dance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/updateSong/66504bebfd9b0e2a97ac4fad",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"title\": \"ሆቴል ካሊፎርኒያ\",\r\n        \"artist\": \"ኢግልስ\",\r\n        \"album\": \"ሆቴል ካሊፎርኒያ\",\r\n        \"genre\": \"Rock\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/updateSong/66504bebfd9b0e2a97ac4fad",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"updateSong",
+						"66504bebfd9b0e2a97ac4fad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/addSong",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"ሞኙ ልቤ\",\r\n    \"artist\": \"ማዲንጎ አፈወርቅ\",\r\n    \"album\": \"Mix Collection\",\r\n    \"genre\": \"dance\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/addSong",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"addSong"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/deleteSong/66507e0e6cd479d29c1fdbb5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/deleteSong/66507e0e6cd479d29c1fdbb5",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"deleteSong",
+						"66507e0e6cd479d29c1fdbb5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/getTotalCounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/getTotalCounts",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"getTotalCounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/getSongCountByGenre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/getSongCountByGenre",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"getSongCountByGenre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/getSongAndAlbumCountByArtist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/getSongAndAlbumCountByArtist",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"getSongAndAlbumCountByArtist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://backend-1-ia3n.onrender.com/api/getSongCountByAlbum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend-1-ia3n.onrender.com/api/getSongCountByAlbum",
+					"protocol": "https",
+					"host": [
+						"backend-1-ia3n",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"getSongCountByAlbum"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
