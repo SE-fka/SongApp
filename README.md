@@ -49,3 +49,8 @@ docker-compose up -d
 docker build -t song-app .      
 
 docker run -p 5000:5000 song-app    
+
+
+
+
+![1](https://github.com/SE-fka/SongApp/assets/85291689/1054c662-a117-4993-bf1c-348fb8fb6b9f)
